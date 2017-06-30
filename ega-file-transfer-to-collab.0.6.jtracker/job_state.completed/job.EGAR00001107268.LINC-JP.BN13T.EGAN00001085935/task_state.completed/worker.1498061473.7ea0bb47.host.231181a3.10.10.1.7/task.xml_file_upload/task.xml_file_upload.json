@@ -1,0 +1,30 @@
+{
+  "task": "xml_file_upload", 
+  "depends_on": [
+    "completed@xml_upload_to_aws", 
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "output": [
+    {
+      "runtime": {
+        "task_start": 1498190579, 
+        "task_stop": 1498190593
+      }, 
+      "worker_id": "worker.1498061473.7ea0bb47.host.231181a3.10.10.1.7", 
+      "task_state": "completed"
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001107268.xml", 
+    "object_id": "ed173963-db54-5aea-ac46-2dc718b53f2c", 
+    "file_md5sum": "6630a525c6c8849cec76ef92d8f90451", 
+    "file": "/home/ubuntu/jtracker/worker.1498061473.7ea0bb47.host.231181a3.10.10.1.7/job.EGAR00001107268.LINC-JP.BN13T.EGAN00001085935/task.prepare_metadata_xml/bundle.EGAR00001107268.xml", 
+    "file_size": 3661, 
+    "bundle_id": "EGAR00001107268"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}

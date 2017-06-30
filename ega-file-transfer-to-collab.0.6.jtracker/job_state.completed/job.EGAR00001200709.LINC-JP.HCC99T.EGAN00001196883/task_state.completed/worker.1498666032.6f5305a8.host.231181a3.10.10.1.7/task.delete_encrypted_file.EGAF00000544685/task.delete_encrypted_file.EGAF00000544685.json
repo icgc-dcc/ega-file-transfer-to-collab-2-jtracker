@@ -1,0 +1,26 @@
+{
+  "task": "delete_encrypted_file", 
+  "depends_on": [
+    "completed@md5sum_check_decrypt.EGAF00000544685", 
+    "completed@download.EGAF00000544685"
+  ], 
+  "tool": "delete_file", 
+  "command": "delete_file.py", 
+  "output": [
+    {
+      "task_info": "File removed", 
+      "worker_id": "worker.1498666032.6f5305a8.host.231181a3.10.10.1.7", 
+      "task_state": "completed", 
+      "runtime": {
+        "task_start": 1498703954, 
+        "task_stop": 1498703954
+      }
+    }
+  ], 
+  "input": {
+    "file": "/home/ubuntu/jtracker/worker.1498697259.f76eac60.host.231181a3.10.10.1.7/job.EGAR00001200709.LINC-JP.HCC99T.EGAN00001196883/task.download.EGAF00000544685/4ddf08b7256fc41a3120c62c609bfbae.HCC99T_NoIndex_L003_R2_007.fastq.bz2"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
