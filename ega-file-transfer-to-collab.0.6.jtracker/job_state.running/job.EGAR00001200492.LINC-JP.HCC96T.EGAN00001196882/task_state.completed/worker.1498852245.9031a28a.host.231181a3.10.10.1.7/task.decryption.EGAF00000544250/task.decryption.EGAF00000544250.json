@@ -1,0 +1,38 @@
+{
+  "task": "decryption", 
+  "depends_on": [
+    "completed@download.EGAF00000544250"
+  ], 
+  "tool": "decryption", 
+  "command": "decryption.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1498852245.9031a28a.host.231181a3.10.10.1.7", 
+        "workflow_version": "0.6.6", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "file_name": "ef8ed9d7a237dcaaf6e1e3c6ae3743bd.HCC96T_GCCAAT_L006_R1_059.fastq.bz2", 
+      "ega_file_id": "EGAF00000544250", 
+      "object_id": "3d087659-6848-5f78-85f7-63c4b205d28f", 
+      "file_md5sum": "ef8ed9d7a237dcaaf6e1e3c6ae3743bd", 
+      "file": "/home/ubuntu/jtracker/worker.1498852245.9031a28a.host.231181a3.10.10.1.7/job.EGAR00001200492.LINC-JP.HCC96T.EGAN00001196882/task.decryption.EGAF00000544250/ef8ed9d7a237dcaaf6e1e3c6ae3743bd.HCC96T_GCCAAT_L006_R1_059.fastq.bz2", 
+      "file_size": 132493805, 
+      "runtime": {
+        "task_start": 1498989113, 
+        "task_stop": 1498989114
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "ef8ed9d7a237dcaaf6e1e3c6ae3743bd.HCC96T_GCCAAT_L006_R1_059.fastq.bz2", 
+    "file_md5sum": "ef8ed9d7a237dcaaf6e1e3c6ae3743bd", 
+    "ega_file_id": "EGAF00000544250", 
+    "object_id": "3d087659-6848-5f78-85f7-63c4b205d28f", 
+    "input_file": "/home/ubuntu/jtracker/worker.1498852245.9031a28a.host.231181a3.10.10.1.7/job.EGAR00001200492.LINC-JP.HCC96T.EGAN00001196882/task.download.EGAF00000544250/ef8ed9d7a237dcaaf6e1e3c6ae3743bd.HCC96T_GCCAAT_L006_R1_059.fastq.bz2"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
