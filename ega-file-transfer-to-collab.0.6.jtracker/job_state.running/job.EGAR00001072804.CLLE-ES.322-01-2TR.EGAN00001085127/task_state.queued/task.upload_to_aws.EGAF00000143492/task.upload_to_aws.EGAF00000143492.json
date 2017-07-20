@@ -1,0 +1,24 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000143492", 
+    "completed@decryption.EGAF00000143492", 
+    "completed@download.EGAF00000143492"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": "{{idx_file_md5sum@generate_bai.EGAF00000143492}}", 
+    "file_name": "0653644f0f23b40c7caa7a7ca67e5677.C01CLACXX_8_4_2.fastq.gz", 
+    "idx_file": "{{idx_file@generate_bai.EGAF00000143492}}", 
+    "object_id": "{{object_id@download.EGAF00000143492}}", 
+    "idx_file_name": "{{idx_file_name@generate_bai.EGAF00000143492}}", 
+    "file_md5sum": "{{file_md5sum@download.EGAF00000143492}}", 
+    "file": "{{file@decryption.EGAF00000143492}}", 
+    "idx_object_id": "{{idx_object_id@generate_bai.EGAF00000143492}}", 
+    "project_code": "CLLE-ES"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
