@@ -1,0 +1,41 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1499715487.27ffcf53.host.032f1807.10.10.0.3", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": false, 
+      "file_md5sum": "1e8a7b3ea24324e18a6b70fb5c7ff2de", 
+      "file": "/home/ubuntu/jtracker/worker.1499715487.27ffcf53.host.032f1807.10.10.0.3/job.EGAR00001273998.MALY-DE.4122131_GCB_RNA.EGAN00001254639/task.prepare_metadata_xml/bundle.EGAR00001273998.xml", 
+      "file_size": 0, 
+      "runtime": {
+        "task_start": 1500646315, 
+        "task_stop": 1500646315
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001273998.xml", 
+    "object_id": "57a37d25-033f-5ad6-afba-9ffd9b4ca495", 
+    "file_md5sum": "1e8a7b3ea24324e18a6b70fb5c7ff2de", 
+    "file": "/home/ubuntu/jtracker/worker.1499715487.27ffcf53.host.032f1807.10.10.0.3/job.EGAR00001273998.MALY-DE.4122131_GCB_RNA.EGAN00001254639/task.prepare_metadata_xml/bundle.EGAR00001273998.xml", 
+    "file_size": 5541, 
+    "bundle_id": "EGAR00001273998", 
+    "project_code": "MALY-DE"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
