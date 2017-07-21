@@ -1,0 +1,35 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1499456619.2233615f.host.231181a3.10.10.1.7", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "file_name": "49b3e4f85023932647b4467ff46b833a.RNA-Seq_tumor_4189998_RNA.bam", 
+      "ega_file_id": "EGAF00000146273", 
+      "object_id": "7fe2c615-4b6e-5fde-919f-af6844f6b7f5", 
+      "file_md5sum": "49b3e4f85023932647b4467ff46b833a", 
+      "file": "/home/ubuntu/jtracker/worker.1499456619.2233615f.host.231181a3.10.10.1.7/job.EGAR00001077875.MALY-DE.tumor_4189998_RNA.EGAN00001088139/task.download.EGAF00000146273/49b3e4f85023932647b4467ff46b833a.RNA-Seq_tumor_4189998_RNA.bam", 
+      "runtime": {
+        "task_start": 1500679135, 
+        "task_stop": 1500680374
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "49b3e4f85023932647b4467ff46b833a.RNA-Seq_tumor_4189998_RNA.bam", 
+    "file_md5sum": "49b3e4f85023932647b4467ff46b833a", 
+    "project_code": "MALY-DE", 
+    "object_id": "7fe2c615-4b6e-5fde-919f-af6844f6b7f5", 
+    "ega_file_id": "EGAF00000146273"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
