@@ -7,16 +7,37 @@
   ], 
   "tool": "upload_to_aws", 
   "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1499715487.27ffcf53.host.032f1807.10.10.0.3", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": false, 
+      "file_md5sum": "e5be98f2b3a1d4c9dfb03a033a7c51ad", 
+      "file": "/home/ubuntu/jtracker/worker.1499715487.27ffcf53.host.032f1807.10.10.0.3/job.EGAR00001274002.MALY-DE.tumor_4159170_RNA.EGAN00001088137/task.decryption.EGAF00000910957/e5be98f2b3a1d4c9dfb03a033a7c51ad.RNA-PAIRED-tumor_4159170_RNA-SN758_0091_BC0YEEACXX_7_GGCTAC-R2.fastq.gz", 
+      "file_size": 0, 
+      "runtime": {
+        "task_start": 1500654389, 
+        "task_stop": 1500654389
+      }
+    }
+  ], 
   "input": {
     "idx_file_md5sum": null, 
     "file_name": "e5be98f2b3a1d4c9dfb03a033a7c51ad.RNA-PAIRED-tumor_4159170_RNA-SN758_0091_BC0YEEACXX_7_GGCTAC-R2.fastq.gz", 
     "idx_file": null, 
     "object_id": "62c1ddcd-6123-5427-a6a8-08087a022e92", 
-    "project_code": "MALY-DE", 
+    "idx_file_name": null, 
     "file_md5sum": "e5be98f2b3a1d4c9dfb03a033a7c51ad", 
     "file": "/home/ubuntu/jtracker/worker.1499715487.27ffcf53.host.032f1807.10.10.0.3/job.EGAR00001274002.MALY-DE.tumor_4159170_RNA.EGAN00001088137/task.decryption.EGAF00000910957/e5be98f2b3a1d4c9dfb03a033a7c51ad.RNA-PAIRED-tumor_4159170_RNA-SN758_0091_BC0YEEACXX_7_GGCTAC-R2.fastq.gz", 
     "idx_object_id": null, 
-    "idx_file_name": null
+    "project_code": "MALY-DE"
   }, 
   "runtime": {
     "docker": null
