@@ -1,0 +1,26 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@decryption.EGAF00000699267", 
+    "completed@generate_bai.EGAF00000699267", 
+    "completed@upload_to_aws.EGAF00000699267"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "idx_file_size": null, 
+    "idx_file_md5sum": null, 
+    "file_name": "7dc6aa21210e12e803d26c87e72b8e1f.RNA-PAIRED-4122131_GCB_RNA-SN758_0086_AD14N6ACXX_5_ACAGTG-R2.fastq.gz", 
+    "idx_file": null, 
+    "object_id": "6b007f8e-8506-50d3-94cd-fe8a6f05129a", 
+    "file_md5sum": "7dc6aa21210e12e803d26c87e72b8e1f", 
+    "file": "/home/ubuntu/jtracker/worker.1499715487.27ffcf53.host.032f1807.10.10.0.3/job.EGAR00001273998.MALY-DE.4122131_GCB_RNA.EGAN00001254639/task.decryption.EGAF00000699267/7dc6aa21210e12e803d26c87e72b8e1f.RNA-PAIRED-4122131_GCB_RNA-SN758_0086_AD14N6ACXX_5_ACAGTG-R2.fastq.gz", 
+    "file_size": 7343625794, 
+    "bundle_id": "EGAR00001273998", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
