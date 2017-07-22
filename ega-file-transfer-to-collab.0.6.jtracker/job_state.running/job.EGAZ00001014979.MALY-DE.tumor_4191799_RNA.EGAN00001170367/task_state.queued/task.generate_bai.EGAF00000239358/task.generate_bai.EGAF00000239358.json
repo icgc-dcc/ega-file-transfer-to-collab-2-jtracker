@@ -1,0 +1,17 @@
+{
+  "task": "generate_bai", 
+  "depends_on": [
+    "completed@decryption.EGAF00000239358", 
+    "completed@md5sum_check_decrypt.EGAF00000239358"
+  ], 
+  "tool": "generate_bai", 
+  "command": "generate_bai.py", 
+  "input": {
+    "bam_file": "{{file@decryption.EGAF00000239358}}", 
+    "idx_object_id": "0e7fa2fd-7e6f-5ad1-a9df-1d0be4b3e012", 
+    "idx_file_name": "fc319a61a4cf67fd56819b95ed5339d1.RNA-Seq_tumor_4191799_RNA.1000genomes.complete.bam.bai"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
