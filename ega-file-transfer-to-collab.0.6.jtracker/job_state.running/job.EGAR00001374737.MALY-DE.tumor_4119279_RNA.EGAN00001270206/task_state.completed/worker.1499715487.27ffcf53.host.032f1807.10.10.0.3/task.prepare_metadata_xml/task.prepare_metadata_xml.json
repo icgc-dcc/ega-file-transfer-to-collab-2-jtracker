@@ -1,0 +1,39 @@
+{
+  "task": "prepare_metadata_xml", 
+  "depends_on": null, 
+  "tool": "prepare_metadata_xml", 
+  "command": "prepare_metadata_xml.py", 
+  "output": [
+    {
+      "xml_file_md5sum": "42afb7f3358d7fe91d371346bd61f572", 
+      "xml_file_name": "bundle.EGAR00001374737.xml", 
+      "xml_file": "/home/ubuntu/jtracker/worker.1499715487.27ffcf53.host.032f1807.10.10.0.3/job.EGAR00001374737.MALY-DE.tumor_4119279_RNA.EGAN00001270206/task.prepare_metadata_xml/bundle.EGAR00001374737.xml", 
+      "_jt_": {
+        "worker_id": "worker.1499715487.27ffcf53.host.032f1807.10.10.0.3", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "xml_file_size": 5453, 
+      "runtime": {
+        "task_start": 1500698433, 
+        "task_stop": 1500698434
+      }
+    }
+  ], 
+  "input": {
+    "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20170630", 
+    "ega_metadata_file_name": "bundle.EGAR00001374737.xml", 
+    "ega_study_id": "EGAS00001001394", 
+    "ega_dataset_id": "EGAD00001001672", 
+    "ega_sample_id": "EGAN00001270206", 
+    "ega_analysis_id": null, 
+    "ega_experiment_id": "EGAX00001344571", 
+    "bundle_id": "EGAR00001374737", 
+    "project_code": "MALY-DE", 
+    "ega_run_id": "EGAR00001374737"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
