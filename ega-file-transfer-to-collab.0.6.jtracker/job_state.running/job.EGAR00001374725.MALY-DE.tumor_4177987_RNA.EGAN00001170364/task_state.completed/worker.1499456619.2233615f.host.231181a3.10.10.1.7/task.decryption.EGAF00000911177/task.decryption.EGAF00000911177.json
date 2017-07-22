@@ -1,0 +1,38 @@
+{
+  "task": "decryption", 
+  "depends_on": [
+    "completed@download.EGAF00000911177"
+  ], 
+  "tool": "decryption", 
+  "command": "decryption.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1499456619.2233615f.host.231181a3.10.10.1.7", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "file_name": "a7a898f567f522b9cecf83f9e973f477.RNA-PAIRED-tumor_4177987_RNA-D00133_0018_ADTWTJACXX_8_ATTCCT-R1.fastq.gz", 
+      "ega_file_id": "EGAF00000911177", 
+      "object_id": "7a2272e1-5bdc-54a2-83ba-18f4619724a0", 
+      "file_md5sum": "a7a898f567f522b9cecf83f9e973f477", 
+      "file": "/home/ubuntu/jtracker/worker.1499456619.2233615f.host.231181a3.10.10.1.7/job.EGAR00001374725.MALY-DE.tumor_4177987_RNA.EGAN00001170364/task.decryption.EGAF00000911177/a7a898f567f522b9cecf83f9e973f477.RNA-PAIRED-tumor_4177987_RNA-D00133_0018_ADTWTJACXX_8_ATTCCT-R1.fastq.gz", 
+      "file_size": 10459829921, 
+      "runtime": {
+        "task_start": 1500699086, 
+        "task_stop": 1500699161
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "a7a898f567f522b9cecf83f9e973f477.RNA-PAIRED-tumor_4177987_RNA-D00133_0018_ADTWTJACXX_8_ATTCCT-R1.fastq.gz", 
+    "file_md5sum": "a7a898f567f522b9cecf83f9e973f477", 
+    "ega_file_id": "EGAF00000911177", 
+    "object_id": "7a2272e1-5bdc-54a2-83ba-18f4619724a0", 
+    "input_file": "/home/ubuntu/jtracker/worker.1499456619.2233615f.host.231181a3.10.10.1.7/job.EGAR00001374725.MALY-DE.tumor_4177987_RNA.EGAN00001170364/task.download.EGAF00000911177/a7a898f567f522b9cecf83f9e973f477.RNA-PAIRED-tumor_4177987_RNA-D00133_0018_ADTWTJACXX_8_ATTCCT-R1.fastq.gz"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
