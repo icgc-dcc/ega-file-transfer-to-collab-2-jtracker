@@ -1,0 +1,18 @@
+{
+  "task": "decryption", 
+  "depends_on": [
+    "completed@download.EGAF00000146271"
+  ], 
+  "tool": "decryption", 
+  "command": "decryption.py", 
+  "input": {
+    "file_name": "6e8e6516537c5faea0a7972642acd400.RNA-Seq_tumor_4159170_RNA.bam", 
+    "file_md5sum": "6e8e6516537c5faea0a7972642acd400", 
+    "ega_file_id": "EGAF00000146271", 
+    "object_id": "c364bd90-6e8e-5bde-bb60-e784acf1f6c9", 
+    "input_file": "/home/ubuntu/jtracker/worker.1499715487.27ffcf53.host.032f1807.10.10.0.3/job.EGAR00001077873.MALY-DE.tumor_4159170_RNA.EGAN00001088137/task.download.EGAF00000146271/6e8e6516537c5faea0a7972642acd400.RNA-Seq_tumor_4159170_RNA.bam"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
