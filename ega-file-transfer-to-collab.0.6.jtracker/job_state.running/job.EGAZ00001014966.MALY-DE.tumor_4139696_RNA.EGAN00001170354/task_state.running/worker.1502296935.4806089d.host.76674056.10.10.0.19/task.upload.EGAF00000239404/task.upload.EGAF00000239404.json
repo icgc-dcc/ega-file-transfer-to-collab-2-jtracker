@@ -1,0 +1,26 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@decryption.EGAF00000239404", 
+    "completed@generate_bai.EGAF00000239404", 
+    "completed@upload_to_aws.EGAF00000239404"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "idx_file_size": 4628024, 
+    "idx_file_md5sum": "7d731f76a5a0f08ce5229700040fa87b", 
+    "file_name": "b4e8cec7e81c9a7b9e8e5167adc587a1.RNA-Seq_tumor_4139696_RNA.1000genomes.complete.bam", 
+    "idx_file": "/home/ubuntu/jtracker/worker.1502296935.4806089d.host.76674056.10.10.0.19/job.EGAZ00001014966.MALY-DE.tumor_4139696_RNA.EGAN00001170354/task.generate_bai.EGAF00000239404/b4e8cec7e81c9a7b9e8e5167adc587a1.RNA-Seq_tumor_4139696_RNA.1000genomes.complete.bam.bai", 
+    "object_id": "5ba730cb-7d87-5a11-aadf-233b9626ce01", 
+    "file_md5sum": "b4e8cec7e81c9a7b9e8e5167adc587a1", 
+    "file": "/home/ubuntu/jtracker/worker.1502296935.4806089d.host.76674056.10.10.0.19/job.EGAZ00001014966.MALY-DE.tumor_4139696_RNA.EGAN00001170354/task.decryption.EGAF00000239404/b4e8cec7e81c9a7b9e8e5167adc587a1.RNA-Seq_tumor_4139696_RNA.1000genomes.complete.bam", 
+    "file_size": 11552167362, 
+    "bundle_id": "EGAZ00001014966", 
+    "idx_object_id": "15653d64-e6f2-5ff6-9729-432ab68d0785", 
+    "idx_file_name": "b4e8cec7e81c9a7b9e8e5167adc587a1.RNA-Seq_tumor_4139696_RNA.1000genomes.complete.bam.bai"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
