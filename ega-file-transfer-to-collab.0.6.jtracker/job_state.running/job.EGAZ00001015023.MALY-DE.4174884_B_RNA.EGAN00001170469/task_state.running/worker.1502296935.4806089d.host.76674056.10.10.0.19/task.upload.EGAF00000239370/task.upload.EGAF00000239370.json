@@ -1,0 +1,26 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@decryption.EGAF00000239370", 
+    "completed@generate_bai.EGAF00000239370", 
+    "completed@upload_to_aws.EGAF00000239370"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "idx_file_size": 4746008, 
+    "idx_file_md5sum": "1a790a1a0793f2d5362c51fef9814f8b", 
+    "file_name": "5fc7c882190e77b62598b070f359847c.RNA-Seq_4174884_B_RNA.1000genomes.complete.bam", 
+    "idx_file": "/home/ubuntu/jtracker/worker.1502296935.4806089d.host.76674056.10.10.0.19/job.EGAZ00001015023.MALY-DE.4174884_B_RNA.EGAN00001170469/task.generate_bai.EGAF00000239370/5fc7c882190e77b62598b070f359847c.RNA-Seq_4174884_B_RNA.1000genomes.complete.bam.bai", 
+    "object_id": "14395ffa-ea05-5be2-9d37-3540f7b93344", 
+    "file_md5sum": "5fc7c882190e77b62598b070f359847c", 
+    "file": "/home/ubuntu/jtracker/worker.1502296935.4806089d.host.76674056.10.10.0.19/job.EGAZ00001015023.MALY-DE.4174884_B_RNA.EGAN00001170469/task.decryption.EGAF00000239370/5fc7c882190e77b62598b070f359847c.RNA-Seq_4174884_B_RNA.1000genomes.complete.bam", 
+    "file_size": 12744461353, 
+    "bundle_id": "EGAZ00001015023", 
+    "idx_object_id": "67d96b37-3a16-5503-a5e5-1701f6e0d358", 
+    "idx_file_name": "5fc7c882190e77b62598b070f359847c.RNA-Seq_4174884_B_RNA.1000genomes.complete.bam.bai"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
