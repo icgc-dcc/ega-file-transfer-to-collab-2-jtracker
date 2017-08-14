@@ -1,0 +1,15 @@
+{
+  "task": "md5sum_check_decrypt", 
+  "depends_on": [
+    "completed@decryption.EGAF00000239404"
+  ], 
+  "tool": "md5sum_check", 
+  "command": "md5sum_check.py", 
+  "input": {
+    "file_md5sum": "b4e8cec7e81c9a7b9e8e5167adc587a1", 
+    "file": "/home/ubuntu/jtracker/worker.1502296935.4806089d.host.76674056.10.10.0.19/job.EGAZ00001014966.MALY-DE.tumor_4139696_RNA.EGAN00001170354/task.decryption.EGAF00000239404/b4e8cec7e81c9a7b9e8e5167adc587a1.RNA-Seq_tumor_4139696_RNA.1000genomes.complete.bam"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
