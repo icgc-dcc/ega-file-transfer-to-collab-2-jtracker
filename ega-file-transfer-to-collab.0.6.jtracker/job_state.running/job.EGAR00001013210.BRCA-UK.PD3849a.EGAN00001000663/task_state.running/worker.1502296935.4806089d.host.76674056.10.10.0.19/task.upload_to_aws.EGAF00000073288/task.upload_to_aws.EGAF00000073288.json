@@ -1,0 +1,24 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000073288", 
+    "completed@decryption.EGAF00000073288", 
+    "completed@download.EGAF00000073288"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": null, 
+    "file_name": "13235789ee1d9130c370b01061b77695.4041_2.bam", 
+    "idx_file": null, 
+    "object_id": "89f3e1e0-d61d-5c2a-8f9f-a4660504b9ea", 
+    "project_code": "BRCA-UK", 
+    "file_md5sum": "13235789ee1d9130c370b01061b77695", 
+    "file": "/home/ubuntu/jtracker/worker.1502296935.4806089d.host.76674056.10.10.0.19/job.EGAR00001013210.BRCA-UK.PD3849a.EGAN00001000663/task.decryption.EGAF00000073288/13235789ee1d9130c370b01061b77695.4041_2.bam", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
