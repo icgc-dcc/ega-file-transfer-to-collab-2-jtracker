@@ -1,0 +1,35 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1502744464.87d6878b.host.76674056.10.10.0.19", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "file_name": "4a169da2a243bb0cb651825e198681ce.5113_5.bam", 
+      "ega_file_id": "EGAF00000064393", 
+      "object_id": "14390749-2218-5bf1-8383-43d8b6f8f1bd", 
+      "file_md5sum": "4a169da2a243bb0cb651825e198681ce", 
+      "file": "/home/ubuntu/jtracker/worker.1502744464.87d6878b.host.76674056.10.10.0.19/job.EGAR00001029639.BRCA-UK.PD4128a.EGAN00001000922/task.download.EGAF00000064393/4a169da2a243bb0cb651825e198681ce.5113_5.bam", 
+      "runtime": {
+        "task_start": 1502805143, 
+        "task_stop": 1502805539
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "4a169da2a243bb0cb651825e198681ce.5113_5.bam", 
+    "file_md5sum": "4a169da2a243bb0cb651825e198681ce", 
+    "project_code": "BRCA-UK", 
+    "object_id": "14390749-2218-5bf1-8383-43d8b6f8f1bd", 
+    "ega_file_id": "EGAF00000064393"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
