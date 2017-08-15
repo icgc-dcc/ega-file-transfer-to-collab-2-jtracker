@@ -1,0 +1,41 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1502296935.4806089d.host.76674056.10.10.0.19", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": true, 
+      "file_md5sum": "d3ec2a45c752d04bc40914c152b6a76e", 
+      "file": "/home/ubuntu/jtracker/worker.1502296935.4806089d.host.76674056.10.10.0.19/job.EGAR00001013228.BRCA-UK.PD3856b.EGAN00001000666/task.prepare_metadata_xml/bundle.EGAR00001013228.xml", 
+      "file_size": 4067, 
+      "runtime": {
+        "task_start": 1502776558, 
+        "task_stop": 1502776564
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001013228.xml", 
+    "object_id": "eaa23667-36df-5794-9e2b-3d042f794e1c", 
+    "file_md5sum": "d3ec2a45c752d04bc40914c152b6a76e", 
+    "file": "/home/ubuntu/jtracker/worker.1502296935.4806089d.host.76674056.10.10.0.19/job.EGAR00001013228.BRCA-UK.PD3856b.EGAN00001000666/task.prepare_metadata_xml/bundle.EGAR00001013228.xml", 
+    "file_size": 4067, 
+    "bundle_id": "EGAR00001013228", 
+    "project_code": "BRCA-UK"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
