@@ -1,0 +1,39 @@
+{
+  "task": "prepare_metadata_xml", 
+  "depends_on": null, 
+  "tool": "prepare_metadata_xml", 
+  "command": "prepare_metadata_xml.py", 
+  "output": [
+    {
+      "xml_file_md5sum": "af9d7fb03931afb1aab4f81e0d9d0f18", 
+      "xml_file_name": "bundle.EGAR00001501095.xml", 
+      "xml_file": "/home/ubuntu/jtracker/worker.1503511009.c3dfb84d.host.4b92f40d.10.10.0.24/job.EGAR00001501095.BOCA-FR.IC204T_WGS.EGAN00001467856/task.prepare_metadata_xml/bundle.EGAR00001501095.xml", 
+      "_jt_": {
+        "worker_id": "worker.1503511009.c3dfb84d.host.4b92f40d.10.10.0.24", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "xml_file_size": 3832, 
+      "runtime": {
+        "task_start": 1503522194, 
+        "task_stop": 1503522195
+      }
+    }
+  ], 
+  "input": {
+    "ega_metadata_repo": "https://raw.githubusercontent.com/icgc-dcc/ega-file-transfer/master/ega_xml/v20170630", 
+    "ega_metadata_file_name": "bundle.EGAR00001501095.xml", 
+    "ega_study_id": "EGAS00001002161", 
+    "ega_dataset_id": "EGAD00001003133", 
+    "ega_sample_id": "EGAN00001467856", 
+    "ega_analysis_id": null, 
+    "ega_experiment_id": "EGAX00001463469", 
+    "bundle_id": "EGAR00001501095", 
+    "project_code": "BOCA-FR", 
+    "ega_run_id": "EGAR00001501095"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
