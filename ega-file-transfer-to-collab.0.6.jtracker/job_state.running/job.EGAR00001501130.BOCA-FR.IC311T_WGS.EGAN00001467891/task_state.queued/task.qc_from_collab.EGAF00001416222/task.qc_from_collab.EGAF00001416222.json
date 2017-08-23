@@ -1,0 +1,15 @@
+{
+  "task": "qc_from_collab", 
+  "depends_on": [
+    "completed@upload.EGAF00001416222"
+  ], 
+  "tool": "qc_from_collab", 
+  "command": "qc_from_collab.py", 
+  "input": {
+    "file_name": "1770df3fe2a07674876b2eeaad1f48b1.IC311T_RRBS.fastq.gz", 
+    "object_id": "37f2f090-0c14-574d-838e-8a0f29f9fdd7"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
