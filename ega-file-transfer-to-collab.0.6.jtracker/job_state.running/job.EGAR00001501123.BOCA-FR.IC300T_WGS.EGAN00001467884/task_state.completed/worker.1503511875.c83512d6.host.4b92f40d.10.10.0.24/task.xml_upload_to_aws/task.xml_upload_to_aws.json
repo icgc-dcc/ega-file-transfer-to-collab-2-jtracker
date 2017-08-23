@@ -1,0 +1,41 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1503511875.c83512d6.host.4b92f40d.10.10.0.24", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": false, 
+      "file_md5sum": "b1f1c3274f7a2098015d84bc5f7e1c07", 
+      "file": "/home/ubuntu/jtracker/worker.1503511875.c83512d6.host.4b92f40d.10.10.0.24/job.EGAR00001501123.BOCA-FR.IC300T_WGS.EGAN00001467884/task.prepare_metadata_xml/bundle.EGAR00001501123.xml", 
+      "file_size": 0, 
+      "runtime": {
+        "task_start": 1503512635, 
+        "task_stop": 1503512635
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001501123.xml", 
+    "object_id": "c2de9407-5998-5be7-9b1f-38d6059f7973", 
+    "file_md5sum": "b1f1c3274f7a2098015d84bc5f7e1c07", 
+    "file": "/home/ubuntu/jtracker/worker.1503511875.c83512d6.host.4b92f40d.10.10.0.24/job.EGAR00001501123.BOCA-FR.IC300T_WGS.EGAN00001467884/task.prepare_metadata_xml/bundle.EGAR00001501123.xml", 
+    "file_size": 3832, 
+    "bundle_id": "EGAR00001501123", 
+    "project_code": "BOCA-FR"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
