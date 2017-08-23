@@ -1,0 +1,16 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00001416156"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "input": {
+    "file_name": "816de6d5217b34aafb11676335dbcde0.IC057T_RRBS.fastq.gz", 
+    "project_code": "BOCA-FR", 
+    "object_id": "57de2825-e3fa-5970-8c4e-f3b8f6dca59a"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
