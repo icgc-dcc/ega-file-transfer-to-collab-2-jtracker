@@ -1,0 +1,35 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1503511790.c18c270c.host.4b92f40d.10.10.0.24", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "file_name": "22694de97c8bbcc778344640d31845a3.IC349T_RRBS.fastq.gz", 
+      "ega_file_id": "EGAF00001416229", 
+      "object_id": "8e98f786-c762-5af4-a539-7cdc4130f71a", 
+      "file_md5sum": "22694de97c8bbcc778344640d31845a3", 
+      "file": "/home/ubuntu/jtracker/worker.1503511790.c18c270c.host.4b92f40d.10.10.0.24/job.EGAR00001501137.BOCA-FR.IC349T_WGS.EGAN00001467898/task.download.EGAF00001416229/22694de97c8bbcc778344640d31845a3.IC349T_RRBS.fastq.gz", 
+      "runtime": {
+        "task_start": 1503520986, 
+        "task_stop": 1503521032
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "22694de97c8bbcc778344640d31845a3.IC349T_RRBS.fastq.gz", 
+    "file_md5sum": "22694de97c8bbcc778344640d31845a3", 
+    "project_code": "BOCA-FR", 
+    "object_id": "8e98f786-c762-5af4-a539-7cdc4130f71a", 
+    "ega_file_id": "EGAF00001416229"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
