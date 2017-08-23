@@ -1,0 +1,24 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00001416218", 
+    "completed@decryption.EGAF00001416218", 
+    "completed@download.EGAF00001416218"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": null, 
+    "file_name": "25a73498dd50e25b194118828ad24ff1.IC305T_RRBS.fastq.gz", 
+    "idx_file": null, 
+    "object_id": "4b91905c-b2ad-5739-91e6-5d2e189e2213", 
+    "project_code": "BOCA-FR", 
+    "file_md5sum": "25a73498dd50e25b194118828ad24ff1", 
+    "file": "/home/ubuntu/jtracker/worker.1503511876.b43d7eb0.host.4b92f40d.10.10.0.24/job.EGAR00001501126.BOCA-FR.IC305T_WGS.EGAN00001467887/task.decryption.EGAF00001416218/25a73498dd50e25b194118828ad24ff1.IC305T_RRBS.fastq.gz", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
