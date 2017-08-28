@@ -1,0 +1,24 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000483887", 
+    "completed@decryption.EGAF00000483887", 
+    "completed@download.EGAF00000483887"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": null, 
+    "file_name": "45479055ad8af72ac191ffdc8f101e7c.CHC1434T.sorted.bam", 
+    "idx_file": null, 
+    "object_id": "2d29b077-866a-5de1-a411-403943ba2db0", 
+    "project_code": "LIAD-FR", 
+    "file_md5sum": "45479055ad8af72ac191ffdc8f101e7c", 
+    "file": "/home/ubuntu/jtracker/worker.1503511875.c83512d6.host.4b92f40d.10.10.0.24/job.EGAR00001165983.LIAD-FR.CHC1434T.EGAN00001188473/task.decryption.EGAF00000483887/45479055ad8af72ac191ffdc8f101e7c.CHC1434T.sorted.bam", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
