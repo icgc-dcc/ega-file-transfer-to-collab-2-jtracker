@@ -1,0 +1,41 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1503511790.c18c270c.host.4b92f40d.10.10.0.24", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": false, 
+      "file_md5sum": "8dd9d61bda96166d35faf5ee3b8e8e41", 
+      "file": "/home/ubuntu/jtracker/worker.1503511790.c18c270c.host.4b92f40d.10.10.0.24/job.EGAR00001166028.LIAD-FR.CHC687T.EGAN00001188501/task.prepare_metadata_xml/bundle.EGAR00001166028.xml", 
+      "file_size": 0, 
+      "runtime": {
+        "task_start": 1503948179, 
+        "task_stop": 1503948179
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001166028.xml", 
+    "object_id": "52750071-a517-54e2-9af7-b9662165baae", 
+    "file_md5sum": "8dd9d61bda96166d35faf5ee3b8e8e41", 
+    "file": "/home/ubuntu/jtracker/worker.1503511790.c18c270c.host.4b92f40d.10.10.0.24/job.EGAR00001166028.LIAD-FR.CHC687T.EGAN00001188501/task.prepare_metadata_xml/bundle.EGAR00001166028.xml", 
+    "file_size": 6978, 
+    "bundle_id": "EGAR00001166028", 
+    "project_code": "LIAD-FR"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
