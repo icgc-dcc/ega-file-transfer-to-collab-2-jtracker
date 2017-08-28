@@ -1,0 +1,16 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00000483886"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "input": {
+    "file_name": "a9e8177244ced5bcc11a332f2c80f1a8.CHC1432T.sorted.bam", 
+    "project_code": "LIAD-FR", 
+    "object_id": "530ab2dd-a34a-5fd2-84da-5de00f1ed9bb"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
