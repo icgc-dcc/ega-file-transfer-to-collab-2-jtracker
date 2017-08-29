@@ -1,0 +1,35 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1503511009.c3dfb84d.host.4b92f40d.10.10.0.24", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "file_name": "385d81e2b04751efe4fd43f75f17fa01.CHC1424N.sorted.bam", 
+      "ega_file_id": "EGAF00000483880", 
+      "object_id": "e3a46ff8-6134-5b58-8c56-50aa33dce6dd", 
+      "file_md5sum": "385d81e2b04751efe4fd43f75f17fa01", 
+      "file": "/home/ubuntu/jtracker/worker.1503511009.c3dfb84d.host.4b92f40d.10.10.0.24/job.EGAR00001165976.LIAD-FR.CHC1424N.EGAN00001188513/task.download.EGAF00000483880/385d81e2b04751efe4fd43f75f17fa01.CHC1424N.sorted.bam", 
+      "runtime": {
+        "task_start": 1503969287, 
+        "task_stop": 1503969913
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "385d81e2b04751efe4fd43f75f17fa01.CHC1424N.sorted.bam", 
+    "file_md5sum": "385d81e2b04751efe4fd43f75f17fa01", 
+    "project_code": "LIAD-FR", 
+    "object_id": "e3a46ff8-6134-5b58-8c56-50aa33dce6dd", 
+    "ega_file_id": "EGAF00000483880"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
